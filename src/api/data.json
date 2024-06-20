@@ -13,12 +13,12 @@
       ]
     },
     "img": {
-      "preview": "/assets/img/modification1/preview.png",
+      "preview": "/NetworkGroup/assets/img/modification1/preview.png",
       "other": [
-        "/assets/img/modification1/other1.png",
-        "/assets/img/modification1/other2.png",
-        "/assets/img/modification1/other3.png",
-        "/assets/img/modification1/other4.png"
+        "/NetworkGroup/assets/img/modification1/other1.png",
+        "/NetworkGroup/assets/img/modification1/other2.png",
+        "/NetworkGroup/assets/img/modification1/other3.png",
+        "/NetworkGroup/assets/img/modification1/other4.png"
       ]
     }
   },
@@ -36,12 +36,12 @@
       ]
     },
     "img": {
-      "preview": "/assets/img/modification2/preview.png",
+      "preview": "/NetworkGroup/assets/img/modification2/preview.png",
       "other": [
-        "/assets/img/modification1/other1.png",
-        "/assets/img/modification1/other2.png",
-        "/assets/img/modification1/other3.png",
-        "/assets/img/modification1/other4.png"
+        "/NetworkGroup/assets/img/modification1/other1.png",
+        "/NetworkGroup/assets/img/modification1/other2.png",
+        "/NetworkGroup/assets/img/modification1/other3.png",
+        "/NetworkGroup/assets/img/modification1/other4.png"
       ]
     }
   },
@@ -59,12 +59,12 @@
       ]
     },
     "img": {
-      "preview": "/assets/img/modification3/preview.png",
+      "preview": "/NetworkGroup/assets/img/modification3/preview.png",
       "other": [
-        "/assets/img/modification1/other1.png",
-        "/assets/img/modification1/other2.png",
-        "/assets/img/modification1/other3.png",
-        "/assets/img/modification1/other4.png"
+        "/NetworkGroup/assets/img/modification1/other1.png",
+        "/NetworkGroup/assets/img/modification1/other2.png",
+        "/NetworkGroup/assets/img/modification1/other3.png",
+        "/NetworkGroup/assets/img/modification1/other4.png"
       ]
     }
   },
@@ -82,12 +82,12 @@
       ]
     },
     "img": {
-      "preview": "/assets/img/modification4/preview.png",
+      "preview": "/NetworkGroup/assets/img/modification4/preview.png",
       "other": [
-        "/assets/img/modification1/other1.png",
-        "/assets/img/modification1/other2.png",
-        "/assets/img/modification1/other3.png",
-        "/assets/img/modification1/other4.png"
+        "/NetworkGroup/assets/img/modification1/other1.png",
+        "/NetworkGroup/assets/img/modification1/other2.png",
+        "/NetworkGroup/assets/img/modification1/other3.png",
+        "/NetworkGroup/assets/img/modification1/other4.png"
       ]
     }
   }
