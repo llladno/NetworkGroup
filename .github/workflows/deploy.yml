@@ -22,7 +22,6 @@ jobs:
         run: npm run build
 
       - name: Deploy to GitHub Pages
-        if: github.ref == 'refs/heads/main'
         run: |
           npm install -g gh-pages
           gh-pages -d dist
