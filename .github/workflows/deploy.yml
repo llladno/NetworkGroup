@@ -23,7 +23,7 @@ jobs:
       - name: Deploy
         uses: s0/git-publish-subdir-action@develop
         env:
-          REPO: self
+          REPO: NetworkGroup
           BRANCH: master
           FOLDER: dist
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
