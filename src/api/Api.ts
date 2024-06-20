@@ -9,7 +9,7 @@ class Api {
     }
 
     async fetchData() {
-        this.modifications = await fetch('/data/data.json').then(res => res.json()).then(result => result).catch(err => console.log(err))
+        this.modifications = await fetch('/NetworkGroup/data/data.json').then(res => res.json()).then(result => result).catch(err => console.log(err))
     }
 
     getAllModifications(): Promise<Modification[]> {
