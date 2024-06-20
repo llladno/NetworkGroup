@@ -1,4 +1,4 @@
-# MyVueProject
+# NetworkGroup
 ## Описание проекта
 NetworkGroup - это выполненное тестовое задание, с использованием Vue, TypeScript, SCSS, Swiper.
 Потыкать готовое приложение можно по адресу [Network Group Task](https://llladno.github.io/NetworkGroup/)
