@@ -1,9 +1,55 @@
-# Vue 3 + TypeScript + Vite
+# NetworkGroup
+## Описание проекта
+NetworkGroup - это выполненное тестовое задание, с использованием Vue, TypeScript, SCSS, Swiper.
+Потыкать готовое приложение можно по адресу [Network Group Task](https://llladno.github.io/NetworkGroup/)
+## Как запустить проект
+### Установка зависимостей
+Для начала склонируйте репозиторий с проектом:
+```bash
+git clone https://github.com/llladno/NetworkGroup.git
+cd NetworkGroup
+```
+Затем установите все необходимые зависимости с помощью npm:
+```bash
+npm install
+```
+### Запуск проекта
+Для запуска проекта в режиме разработки используйте команду:
+```bash
+npm run dev
+```
+Проект будет доступен по адресу [`http://localhost:3000`](http://localhost:5173/NetworkGroup/).
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-## Recommended Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
-
-- Use [vue-tsc](https://github.com/vuejs/language-tools/tree/master/packages/tsc) for performing the same type checking from the command line, or for generating d.ts files for SFCs.
+```
+NetworkGroup/
+├── .gitignore                # Файл для исключения файлов и папок из git
+├── index.html                # Главный HTML файл
+├── package.json              # Информация о проекте и его зависимостях
+├── README.md                 # Документация проекта (этот файл)
+├── tsconfig.json             # Настройки TypeScript
+├── vite.config.ts            # Конфигурационный файл Vite
+├── src/                      # Исходный код проекта
+│   ├── api/                  # Папка для работы с API
+│   ├── assets/               # Статические ресурсы (изображения, шрифты и т.д.)
+│   ├── components/           # Компоненты Vue
+│   │   ├── icons/            # Папка для иконок
+│   │   ├── MainPage.vue      # Компонент главной страницы
+│   │   ├── PopupImg.vue      # Компонент для отображения всплывающего изображения
+│   │   ├── Recommend.vue     # Компонент с рекомендациями
+│   │   ├── RecommendCard.vue # Карточка с рекомендацией
+│   │   ├── SwiperSlideCustom.vue # Кастомный компонент для использования Swiper
+│   ├── router/               # Настройки маршрутизации
+│   ├── types/                # Пользовательские типы и интерфейсы TypeScript
+│   ├── views/                # Представления (страницы)
+│   │   ├── CardView.vue      # Страница для отображения карточек
+│   │   ├── HomeView.vue      # Главная страница
+│   ├── App.vue               # Главный компонент приложения
+│   ├── main.scss             # Главный SCSS файл
+│   ├── main.ts               # Главный файл запуска приложения
+```
+## Технологии
+- **Vue.js**: позволяет создавать реактивные компоненты для веб-приложений.
+- **TypeScript**: обеспечивает статическую типизацию, что помогает избежать ошибок и улучшает качество кода.
+- **SCSS**: предоставляет мощные инструменты для стилизации, такие как переменные, миксины и вложенность.
+- **Swiper**: используется для создания слайдеров и каруселей.
+- **Vite**: обеспечивает быструю сборку и разработку благодаря своей легкости и скорости.
