@@ -35,3 +35,5 @@ jobs:
         run: |
           mkdir -p dist/data
           cp -r public/data/* dist/data/
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
