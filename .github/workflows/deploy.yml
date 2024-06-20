@@ -3,25 +3,36 @@ on:
   push:
 
 jobs:
-  deploy:
-    name: Deploy Application
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@master
-      - name: Create Node Environment
-        uses: actions/setup-node@v1
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
         with:
-          node-version: 20.x
-      - name: Install Packages and Build Application
+          node-version: '14'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build the project
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        if: github.ref == 'refs/heads/main'
         run: |
-          npm install -g @vue/cli yarn
-          yarn install
-          yarn build
-      - name: Deploy
-        uses: s0/git-publish-subdir-action@develop
-        env:
-          REPO: NetworkGroup
-          BRANCH: deploy
-          FOLDER: dist
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          npm install -g gh-pages
+          gh-pages -d dist
+
+      - name: Upload assets
+        run: |
+          mkdir -p dist/assets
+          cp -r public/assets/* dist/assets/
+
+      - name: Upload data
+        run: |
+          mkdir -p dist/data
+          cp -r public/data/* dist/data/
