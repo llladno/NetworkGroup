@@ -15,7 +15,7 @@
         @slideChange="onSlideChange"
     >
       <swiper-slide v-for="img in imgs">
-        <RouterLink :to='`/card/${img.id}`'><img :src="img.img"></RouterLink>
+        <RouterLink :to='`/NetworkGroup/card/${img.id}`'><img :src="img.img"></RouterLink>
       </swiper-slide>
     </swiper>
   </div>

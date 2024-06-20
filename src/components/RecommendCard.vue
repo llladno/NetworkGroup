@@ -16,7 +16,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="recommend-card" @click="$router.push(`/card/${modification?.id}`)">
+  <div class="recommend-card" @click="$router.push(`/NetworkGroup/card/${modification?.id}`)">
     <div class="recommend-card__info" :style="{backgroundImage: `url(${modification?.img.preview})`}">
       <div class="recommend-card__tags">
         <div class="recommend-card__tag" v-for="tag in modification?.info?.tags?.slice(0,3)">
